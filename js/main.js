@@ -26,14 +26,15 @@ function toggleMode() {
     // switch between css files to change background colors
     // and change the text to indicate option (Dark Mode/ Light Mode)
     if (isDarkMode) {
-      changeMode.setAttribute("href", "/css/main.css");
+      changeMode.setAttribute("href", "css/main.css");
       mode.innerText = "Dark Mode";
       isDarkMode = false;
     } else {
-      changeMode.setAttribute("href", "/css/main.dark.css");
+      changeMode.setAttribute("href", "css/main.dark.css");
       mode.innerText = "Light Mode";
       isDarkMode = true;
     }
+    
   
     // Store the current theme mode in localStorage
     localStorage.setItem("isDarkMode", isDarkMode.toString());
@@ -49,10 +50,10 @@ function toggleMode() {
     // Check for the initial theme mode and set it
     let isDarkMode = localStorage.getItem("isDarkMode") === "true";
     if (isDarkMode) {
-      document.getElementById("css-mode").setAttribute("href", "/css/main.dark.css");
+      document.getElementById("css-mode").setAttribute("href", "css/main.dark.css");
       document.getElementById("dark-light").innerText = "Light Mode";
     } else {
-      document.getElementById("css-mode").setAttribute("href", "/css/main.css");
+      document.getElementById("css-mode").setAttribute("href", "css/main.css");
       document.getElementById("dark-light").innerText = "Dark Mode";
     }
   });
