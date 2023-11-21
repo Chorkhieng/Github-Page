@@ -1,0 +1,127 @@
+/* Cascade Styles Sheet*/
+/* import google font style */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
+
+body {
+    background-color: rgb(12, 11, 3);
+    text-decoration: solid;
+    text-align: center;
+    margin: 0;
+    color: bisque;
+}
+
+.topNav {
+    background-color: rgb(41, 22, 110);
+    margin-bottom: 4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+div a {
+    background-color: rgb(62, 121, 19);
+    color: black;
+    font-weight: 300;
+    border-radius: 1em;
+    box-shadow: 0 0 0.5em;
+    text-align: center;
+    display: flex;
+    width: fit-content;
+    margin-left: 0;
+    border: 1em;
+    padding: 0.5em;
+    border-color: rgb(68, 11, 112);
+}
+div a:hover {
+    background-color: darkblue;
+    color: rgb(177, 177, 196);
+    font-size: larger;
+}
+p {
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    border: 1em;
+    border-radius: 2em;
+    width: 60%;
+    border-style: double;
+    border-color: blue ;
+}
+
+#show-date-time {
+    background-color: rgb(105, 128, 22);
+    color: blue;
+    text-align: center;
+    margin: 0 auto;
+    border: 12px;
+    border-radius: 1em;
+    padding: 10px;
+    width: 40%;
+}
+
+.footer-logo {
+    background-color: blue;
+    color: antiquewhite;
+    padding: 5px;
+    margin: 10px;
+    border: 5px;
+    border-radius: 0.4em;
+}
+
+.footer-logo:hover {
+    background-color: rgb(31, 95, 14);
+    color: antiquewhite;
+    padding: 5px;
+    margin: 10px;
+    border: 5px;
+    border-radius: 0.4em;
+}
+
+footer {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+ul {
+    background-color: rgb(64, 75, 26);
+    text-align: left;
+    border: 12px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+ul li:hover{
+    font-size: x-large;
+    background-color: rgb(103, 174, 21);
+    color: rgb(60, 60, 91);
+    border: 5px;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.resume {
+    background-color: rgb(123, 145, 41);
+    color: rgb(36, 23, 60);
+    text-align: left;
+    border: 12px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+div#my-intro {
+    background-color: rgb(34, 37, 67);
+    text-align: left;
+    margin: 0 auto;
+    border: 12px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 70%;
+}
