@@ -33,11 +33,11 @@ div a {
     padding: 0.5em;
     border-color: black;
 }
-div a:hover {
+/* div a:hover {
     background-color: darkblue;
     color: rgb(177, 177, 196);
     font-size: larger;
-}
+} */
 p {
     color: aliceblue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
