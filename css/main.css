@@ -94,7 +94,6 @@ ul {
 }
 
 ul li:hover{
-    font-size: x-large;
     background-color: rgb(73, 129, 9);
     color: rgb(31, 31, 48);
     border: 5px;

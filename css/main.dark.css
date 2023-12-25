@@ -96,14 +96,6 @@ ul {
     margin: 0 auto;
 }
 
-ul li:hover{
-    font-size: x-large;
-    background-color: rgb(103, 174, 21);
-    color: rgb(60, 60, 91);
-    border: 5px;
-    border-radius: 5px;
-    width: fit-content;
-}
 
 .resume {
     background-color: rgb(123, 145, 41);
