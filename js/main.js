@@ -9,7 +9,7 @@ function showCurrentDateTime() {
     var time = currentDate.toLocaleTimeString();
   
     // Display the current date and time
-    currDateTime.innerText = "Current Date: " + date + "\nCurrent Time: " + time + " CT\n";
+    currDateTime.innerText = "Current Date: " + date + "\nCurrent Time: " + time + "\n";
   }
   
   // Call the function to display the current date and time

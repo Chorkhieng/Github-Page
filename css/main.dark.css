@@ -12,7 +12,7 @@ body {
 }
 
 .topNav {
-    background-color: rgb(41, 22, 110);
+    background-color: rgb(171, 166, 190);
     margin-bottom: 4em;
     display: flex;
     flex-direction: row;
@@ -117,7 +117,7 @@ ul li:hover{
 }
 
 div#my-intro {
-    background-color: rgb(34, 37, 67);
+    background-color: rgb(45, 152, 176);
     text-align: left;
     margin: 0 auto;
     border: 12px;
