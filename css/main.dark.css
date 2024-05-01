@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
 
 body {
-    background-color: rgb(12, 11, 3);
+    background-color: rgb(37, 37, 31);
     text-decoration: solid;
     text-align: center;
     margin: 0;
@@ -21,7 +21,7 @@ body {
 }
 
 div a {
-    background-color: rgb(62, 121, 19);
+    background-color: rgb(103, 108, 99);
     color: black;
     font-weight: 300;
     border-radius: 1em;
@@ -40,7 +40,7 @@ div a {
     font-size: larger;
 } */
 p {
-    color: aliceblue;
+    color: rgb(50, 53, 55);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -53,8 +53,8 @@ img {
 }
 
 #show-date-time {
-    background-color: rgb(105, 128, 22);
-    color: blue;
+    background-color: rgb(67, 73, 42);
+    color: rgb(199, 199, 216);
     text-align: center;
     margin: 0 auto;
     border: 12px;
@@ -86,8 +86,22 @@ footer {
     margin-bottom: 50px;
 }
 
+.course-title {
+    color: rgb(180, 191, 179);
+    text-align: center;
+}
+
+#projects {
+    color: rgb(75, 83, 83);
+}
+
+ul.course-description{
+    max-width: 1000px;
+    color: black;
+}
+
 ul {
-    background-color: rgb(64, 75, 26);
+    background-color: rgb(144, 160, 87);
     text-align: left;
     border: 12px;
     border-radius: 10px;
@@ -98,7 +112,7 @@ ul {
 
 
 .resume {
-    background-color: rgb(123, 145, 41);
+    background-color: rgb(141, 151, 104);
     color: rgb(36, 23, 60);
     text-align: left;
     border: 12px;
@@ -109,7 +123,7 @@ ul {
 }
 
 div#my-intro {
-    background-color: rgb(45, 152, 176);
+    background-color: rgb(161, 178, 191);
     text-align: left;
     margin: 0 auto;
     border: 12px;

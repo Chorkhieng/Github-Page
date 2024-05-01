@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
 
 body {
-    background-color: rgb(67, 60, 21);
+    background-color: rgb(187, 185, 175);
     text-decoration: solid;
     text-align: center;
     margin: 0;
@@ -61,8 +61,8 @@ img {
 }
 
 .footer-logo {
-    background-color: blue;
-    color: antiquewhite;
+    background-color: rgb(117, 117, 168);
+    color: rgb(46, 64, 73);
     padding: 5px;
     margin: 10px;
     border: 5px;
@@ -71,7 +71,7 @@ img {
 
 .footer-logo:hover {
     background-color: rgb(31, 95, 14);
-    color: antiquewhite;
+    color: rgb(218, 215, 250);
     padding: 5px;
     margin: 10px;
     border: 5px;
@@ -83,8 +83,12 @@ footer {
     margin-top: 100px;
 }
 
+ul.course-description{
+    max-width: 1000px;
+}
+
 ul {
-    background-color: rgb(166, 173, 32);
+    background-color: rgb(138, 148, 80);
     text-align: left;
     border: 12px;
     border-radius: 10px;
@@ -93,16 +97,16 @@ ul {
     margin: 0 auto;
 }
 
-ul li:hover{
+/* ul li:hover{
     background-color: rgb(73, 129, 9);
     color: rgb(31, 31, 48);
     border: 5px;
     border-radius: 5px;
     width: fit-content;
-}
+} */
 
 .resume {
-    background-color: rgb(51, 99, 42);
+    background-color: rgb(122, 179, 112);
     text-align: left;
     border: 12px;
     border-radius: 10px;
@@ -112,7 +116,7 @@ ul li:hover{
 }
 
 div#my-intro {
-    background-color: rgb(91, 90, 113);
+    background-color: rgb(145, 160, 104);
     text-align: left;
     margin: 0 auto;
     border: 12px;
