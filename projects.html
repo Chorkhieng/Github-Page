@@ -68,6 +68,13 @@
     </ul>
 </body>
 <footer>
-    <p>&copy; Chork 2024 All right reserved.</p><a class="footer-logo" href="https://github.com/Chorkhieng">GitHub</a><a class="footer-logo" href="https://www.linkedin.com/in/chork-hieng-ab711012a/">LinkedIn</a></footer>
-
+    <footer>
+        <p id="copyright"></p>
+        <script>
+            var currentDate = new Date();
+            var year = currentDate.getFullYear();
+            document.getElementById("copyright").innerHTML = "Copyright &copy; CHORK " + year;
+        </script>
+        <a class="footer-logo" href="https://github.com/Chorkhieng">GitHub</a><a class="footer-logo" href="https://www.linkedin.com/in/chork-hieng-ab711012a/">LinkedIn</a></footer>
+    
 </html>
