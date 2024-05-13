@@ -23,7 +23,7 @@ div a {
     background-color: rgb(180, 172, 187);
     color: black;
     font-weight: 300;
-    border-radius: 1em;
+    /* border-radius: 1em; */
     box-shadow: 0 0 0.5em;
     text-align: center;
     display: flex;
@@ -81,6 +81,10 @@ img {
 footer {
     margin-bottom: 50px;
     margin-top: 100px;
+}
+
+a {
+    text-decoration: none;
 }
 
 ul.course-description{

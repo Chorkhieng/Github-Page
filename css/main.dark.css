@@ -24,7 +24,7 @@ div a {
     background-color: rgb(103, 108, 99);
     color: black;
     font-weight: 300;
-    border-radius: 1em;
+    /* border-radius: 1em; */
     box-shadow: 0 0 0.5em;
     text-align: center;
     display: flex;
@@ -85,6 +85,11 @@ footer {
     margin-top: 100px;
     margin-bottom: 50px;
 }
+
+a {
+    text-decoration: none;
+}
+
 
 .course-title {
     color: rgb(180, 191, 179);
